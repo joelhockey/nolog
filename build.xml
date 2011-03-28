@@ -12,7 +12,8 @@
   </target>
 
   <target name="jar" depends="compile" description="jar">
-    <jar jarfile="target/${ant.project.name}-${version}.jar" basedir="target/classes" />
+    <jar jarfile="target/${ant.project.name}-commons-logging-${version}.jar" basedir="target/classes" includes="org/apache/commons/logging/*" />
+    <jar jarfile="target/${ant.project.name}-log4j-${version}.jar" basedir="target/classes"  includes="org/apache/log4j/*" />
   </target>
 
   <target name="clean" description="clean">
