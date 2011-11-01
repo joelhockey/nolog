@@ -1,2 +1,2 @@
-Replacement for java apache commons-logging with minimal footprint
+Replacement for java apache commons-logging/log4j with minimal footprint
 that does nothing.  Currently used to package with Java Applets.

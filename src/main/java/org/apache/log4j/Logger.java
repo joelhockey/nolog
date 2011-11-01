@@ -1,8 +1,15 @@
 /*
  * Apache Licence.
  */
-package org.apache.commons.logging;
-public class NoLog implements Log {
+
+package org.apache.log4j;
+public class Logger {
+    private static final Logger instance = new Logger();
+    public static Logger getLogger(Class clazz) { return instance; }
+    public static Logger getLogger(String name) { return instance; }
+    public static Logger getRootLogger() { return instance; }
+
+    public String getName() { return "NOLOG"; }
     public void debug(Object o) {}
     public void debug(Object o, Throwable t) {}
     public void error(Object o) {}
