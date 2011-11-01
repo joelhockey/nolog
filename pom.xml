@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.joelhockey</groupId>
+  <groupId>net.java.jless</groupId>
   <artifactId>nolog</artifactId>
   <version>1.0</version>
   <name>nolog</name>
