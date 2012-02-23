@@ -2,7 +2,7 @@
  * Apache Licence.
  */
 package org.apache.commons.logging;
-interface Log {
+public interface Log {
     void debug(Object o);;
     void error(Object o);
     void error(Object o, Throwable t);

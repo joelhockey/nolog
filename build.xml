@@ -8,7 +8,7 @@
 
   <target name="compile" depends="init" description="compile">
     <javac srcdir="src/main/java" destdir="target/classes"
-        debug="off" source="1.2" target="1.2" />
+        debug="off" source="1.2" target="1.2" includeAntRuntime="false"/>
   </target>
 
   <target name="jar" depends="compile" description="jar">
